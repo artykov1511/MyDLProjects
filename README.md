@@ -1,9 +1,4 @@
-# MyDLProjects
+# Implementation of the paper named "IMU Data Processing For Inertial Aided Navigation:
+# A Recurrent Neural Network Based Approach"
 
-This project includes A* and D* Lite path finding algorithm implementations for pac-man game.
 
-Usage for A*:
-$ python main.py ASTAR 3
-  
-or for D* Lite:
-$ python main.py DSTAR 3
