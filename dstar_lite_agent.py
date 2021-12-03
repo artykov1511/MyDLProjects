@@ -122,12 +122,7 @@ class DStarLiteAgent(Agent):
         super().solve(level_matrix, player_row, player_column)
         move_sequence = []
 
-        """
-            YOUR CODE STARTS HERE
-            fill move_sequence list with directions chars
-        """
-
-        
+       
 
         initial_level_matrix = [list(row) for row in level_matrix] #deepcopy(level_matrix)
         self.print_level_matrix(initial_level_matrix)
@@ -204,11 +199,7 @@ class DStarLiteAgent(Agent):
                     self.Compute_Shortest_Path(move_sequence)
                 sayac += 1
               
-        
-        """
-            YOUR CODE ENDS HERE
-            return move_sequence
-        """
+       
         return move_sequence
     
     
