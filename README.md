@@ -3,7 +3,7 @@
 This project includes A* and D* Lite path finding algorithm implementations for pac-man game.
 
 Usage for A*:
-$ python main.py ASTAR '<LEVEL>'
+$ python main.py ASTAR 3
   
 or for D* Lite:
-$ python main.py DSTAR <LEVEL>
+$ python main.py DSTAR 3
