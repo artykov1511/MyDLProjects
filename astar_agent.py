@@ -123,10 +123,7 @@ class AStarAgent(Agent):
         
         
         
-        """
-            YOUR CODE STARTS HERE
-            fill move_sequence list with directions chars
-        """
+      
         # Initialization 
         open_list = PriorityQueue()
         closed_list = []
@@ -192,23 +189,4 @@ class AStarAgent(Agent):
             closed_list.append(current_node)
                                 
 
-
-		
-		
-		   
-
-       
-	 
-	        
-	       
-            
-            
-            
-        
-        
-
-        """
-            YOUR CODE ENDS HERE
-            return move_sequence
-        """
         return move_sequence
